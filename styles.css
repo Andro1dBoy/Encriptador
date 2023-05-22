@@ -72,6 +72,7 @@ main{
     margin-bottom: 5px;
     margin-top: 5px;
     width: 60%;
+    font-size: 24px;
 }
 
 .btn-desencriptar:active {
@@ -92,6 +93,7 @@ main{
     margin-bottom: 50px;
     margin-top: 5px;
     width: 60%;
+    font-size: 24px;
 }
 
 .btn-encriptar:active {
@@ -106,9 +108,10 @@ main{
     color: #0A3871;
     cursor: pointer;
     height: 67px;
-    margin: 647px 150px;
+    margin: 648px 160px;
     position: absolute;
     width: 18%;
+    font-size: 24px;
 }
 
 .btn-copiar:active {
