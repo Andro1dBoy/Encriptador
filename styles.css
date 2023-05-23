@@ -21,6 +21,7 @@ main{
 }
 
 .text-area{
+    border: none;
     height: 500px;
     color: #0A3871;
     margin: 5px 20px 20px 10px;
@@ -28,7 +29,7 @@ main{
     text-transform: lowercase;
     resize: none;
     height: 500px;
-    width: auto;
+    width: 450px;
     font-size: 24px;
 }
 
@@ -57,7 +58,7 @@ main{
     position: fixed;
     font-size: 20px;
     height: 70.5%;
-    width: 19em;
+    width: 24em;
     resize: none;
 }
 
@@ -71,6 +72,7 @@ main{
 .botones{
     display: flex;
     gap: 10px;
+    margin-left: 45px;
 }
 
 .btn-desencriptar{
@@ -119,7 +121,7 @@ main{
     text-align: center;
     color: #0A3871;
     cursor: pointer;
-    margin: 578px 160px;
+    margin: 578px 210px;
     position: fixed;
     width: 180px;
     height: 50px;
@@ -261,8 +263,7 @@ main {
 .botones {
     display: flex;
     justify-content: center;
-    margin-top: 0px;
-    margin-bottom: 10px;
+    margin: 0 0 10px 0;
     gap: 5px;
     }
 
@@ -340,8 +341,7 @@ section {
     .botones {
         display: flex;
         justify-content: center;
-        margin-top: 0px;
-        margin-bottom: 10px;
+        margin: 0 0 10px 0;
         gap: 10px;
         }
     
@@ -416,15 +416,14 @@ section {
     .botones {
         display: flex;
         justify-content: center;
-        margin-top: 0px;
-        margin-bottom: 10px;
+        margin: 0 0 10px 0;
         gap: 10px;
         }
     
     .btn-encriptar,.btn-desencriptar {
         margin: 5px;
         font-size: 20px;
-        width: 215px;
+        width: 190px;
         height: 55px;
         }
     
@@ -449,7 +448,7 @@ section {
         margin-top: 390px;
         margin-left: 75px;
         font-size: 20px;
-        width: 215px;
+        width: 190px;
         height: 55px;
         opacity: 1.0;
         }
@@ -488,21 +487,20 @@ section {
     
     .informacion{
         font-size: 18px;
-        margin: 2px 10% 10px;
+        margin: 2px 5% 10px;
     }
     
     .botones {
         display: flex;
         justify-content: center;
-        margin-top: 0px;
-        margin-bottom: 40px;
+        margin: 0 0 10px 0;
         gap: 10px;
         }
     
     .btn-encriptar,.btn-desencriptar {
         margin: 5px;
         font-size: 24px;
-        width: 250px;
+        width: 200px;
         height: 60px;
         }
     
@@ -528,7 +526,7 @@ section {
         margin-left: 50px;
         margin-bottom: 5px;
         font-size: 24px;
-        width: 250px;
+        width: 200px;
         height: 60px;
         opacity: 1.0;
     }
@@ -550,7 +548,6 @@ section {
     }
     .botones {
         display: flex;
-        justify-content: center;
         margin-top: 0px;
         margin-bottom: 40px;
         gap: 10px;
