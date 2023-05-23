@@ -16,17 +16,19 @@
     </header>
     <main>
         <section class="text-input">
-            <textarea class="text-area" cols="20" rows="10" placeholder="Ingresa el texto aquí"></textarea>
-            <div>
+            <div class="textarea-container">
+              <textarea class="text-area" placeholder="Ingresa el texto aquí"></textarea>
+              <div>
                 <h6 class="informacion">Solamente letras minúsculas y sin acentos</h6>
+              </div>
             </div>
             <div class="botones">
-                <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
-                <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+              <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
+              <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
             </div>
-        </section>
+        </section>          
         <section>
-            <textarea class="mensaje" cols="20" rows="10"></textarea>
+            <textarea class="mensaje"></textarea>
             <div>
                 <button class="btn-copiar">Copiar</button>
             </div>
