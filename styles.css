@@ -1,16 +1,16 @@
 *{
     background-color: #F3F5FC;
     font-family: Inter;
-    font-size: 32px;
+    font-size: 10%;
     font-weight: 400;
     line-height: 150%;
     text-align: left;
-    overflow-y: hidden;
+   
 }
 
 .logo{
-    padding-top: 10px;
-    padding-left: 10px;
+    padding-top: 1%;
+    padding-left: 2%;
     width: 10%;
 }
 
@@ -20,23 +20,26 @@ main{
     margin-left: 5%;
 }
 
+.text-input {
+    text-align: center;
+}
+
 .text-area{
     border: none;
-    height: 500px;
     color: #0A3871;
-    margin: 5px 20px 20px 10px;
-    padding: 2px;
+    margin: 2% 5% 5% 2%;
+    padding: 1%;
     text-transform: lowercase;
     resize: none;
     height: 500px;
-    width: 450px;
-    font-size: 24px;
+    width: 90%;
+    font-size: 20px;
 }
 
 .textarea-container {
     display: flex;
     flex-direction: column;
-    margin-bottom: 10px;
+    margin-bottom: 2%;
     
 }
 
@@ -53,12 +56,11 @@ main{
     border: none;
     border-radius: 12px;
     color: #0A3871;
-    margin-left: 50px;
-    padding-left: 20px;
-    position: fixed;
+    margin-left: 70px;
+    position: absolute;
     font-size: 20px;
-    height: 70.5%;
-    width: 24em;
+    height: 71%;
+    width: 500px;
     resize: none;
 }
 
@@ -67,12 +69,10 @@ main{
     background-image: none;
 }
 
-
-
 .botones{
     display: flex;
-    gap: 10px;
-    margin-left: 45px;
+    gap: 5%;
+    justify-content: center;
 }
 
 .btn-desencriptar{
@@ -82,7 +82,7 @@ main{
     color: #0A3871;
     cursor: pointer;
     text-align: center;
-    font-size: 24px;
+    font-size: 22px;
     width: 180px;
     height: 50px;
     margin-bottom: 5px;
@@ -102,12 +102,11 @@ main{
     color: white;
     text-align: center;
     cursor: pointer;
-    font-size: 24px;
+    font-size: 22px;
     width: 180px;
     height: 50px;
     margin-bottom: 5px;
     margin-left: 4px;
-    
 }
 
 .btn-encriptar:active {
@@ -121,12 +120,12 @@ main{
     text-align: center;
     color: #0A3871;
     cursor: pointer;
-    margin: 578px 210px;
-    position: fixed;
+    margin: 325% 130%;
     width: 180px;
     height: 50px;
-    font-size: 24px;
+    font-size: 22px;
     opacity: 0.4;
+    position: relative;
 }
 
 .btn-copiar:hover{
@@ -142,12 +141,12 @@ main{
     color:#495057;
     font-size: 15px;
     font-style: italic;
-    margin: 2px 2px 10px;
+    margin: 0 0 5% 3%
 }
 
 
 /* ////////////////////////VERTICAL//////////////////////// */
-@media screen and (min-width: 280px) and (max-width: 350.99px) {
+@media screen and (min-width: 250px) and (max-width: 350.99px) {
     body {
         width: auto;
     }
@@ -163,36 +162,30 @@ main{
     main {
         flex-direction: column;
         align-items: center;
-    }
-    
-    .text-input {
-        text-align: center;
-    }
-    
+    }    
     .text-area {
-        height: 150px;
-        width: 230px;
+        width: 95%;
+        height: 180px;
         font-size: 14px;
-        margin-bottom: 5px;
+        position: relative;
+        margin: 1% 0 1% 0;
     }
     
     .informacion{
-        font-size: 10px;
-        margin: 2px 8% 0px;
+        font-size: 9px;
+        margin: 2px 2% 0px;
     }
     
     .botones {
-        display: flex;
-        justify-content: center;
-        margin-top: 0px;
-        margin-bottom: 10px;
-        margin-right: 12px;
-        gap: 5px;
+        margin-top: 2%;
+        margin-bottom: 5%;
+        margin-left: 0;
+        gap: 10px;
     }
     
     .btn-encriptar,.btn-desencriptar {
-        font-size: 15px;
-        width: 110px;
+        font-size: 14px;
+        width: 100px;
         height: 35px;
     }
     
@@ -205,10 +198,10 @@ main{
         border: none;
         border-radius: 12px;
         color: #0A3871;
-        margin: 20px 20px 10px -130px;
-        position: absolute;
-        height: 150px;
-        width: 230px;
+        /* margin: 20px 20px 10px -130px; */
+        margin: 5% 0 0 -40%;   
+        height: 180px;
+        width: 70%;
         font-size: 14px;
         resize: none;
         background-image: url("./images/muneco.png");
@@ -218,11 +211,12 @@ main{
     }
     
     .btn-copiar {
-        margin: 185px auto;
+        margin: 210% 0 0 0;
         font-size: 15px;
-        width: 110px;
+        width: 100px;
         height: 35px;
         opacity: 1.0;
+        position: relative;
     }
 }   
 /* ////////////////////////VERTICAL//////////////////////// */
@@ -231,11 +225,8 @@ body{
     width: auto;
     }
 
-*{
-    overflow: hidden;
-}
-
 .logo{
+    margin-top: 3%;
     width: 20%;
     }
 
@@ -244,33 +235,27 @@ main {
     align-items: center;
     }
 
-.text-input {
-    text-align: center;
-    }
-
 .text-area {
     height: 200px;
-    width: 300px;
-    font-size: 20px;
-    margin-bottom: 5px;
+    width: 120%;
+    font-size: 16px;
+    margin: 5% 0 0 -15%;
     }
 
 .informacion{
-    font-size: 13px;
-    margin: 2px 10% 0px;
+    font-size: 10px;
+    margin: 0.5% 1% 0;
 }
 
 .botones {
-    display: flex;
-    justify-content: center;
-    margin: 0 0 10px 0;
-    gap: 5px;
+    margin: 0 0 2% 0;
+    gap: 5%;
     }
 
 .btn-encriptar,.btn-desencriptar {
-    margin: 5px;
-    font-size: 20px;
-    width: 135px;
+    margin: 1% 0 5% 0;
+    font-size: 16px;
+    width: 125px;
     height: 40px;
     }
 
@@ -279,27 +264,19 @@ section {
     }
 
 .mensaje {
-    background: white;
-    border: none;
-    border-radius: 12px;
-    color: #0A3871;
-    margin: 20px 10px 10px -170px;
-    position: absolute;
-    height: 200px;
-    width: 300px;
-    font-size: 18px;
-    resize: none;
-    background-image: url("./images/muneco.png");
+    /* margin: 20px 10px 10px -145px; */
+    margin: 2% 0 1% -40%;
+    height: 230px;
+    width: 75%;
+    font-size: 16px;
     background-size: 60%;
-    background-repeat: no-repeat;
-    background-position: center;
     }
 
 .btn-copiar {
-    margin: 235px auto;
-    width: 135px;
+    margin: 205% auto;
+    font-size: 16px;
+    width: 125px;
     height: 40px;
-    font-size: 20px;
     opacity: 1.0;
     }
 }
@@ -307,76 +284,52 @@ section {
 @media screen and (min-width:540px) and (max-width:767.99px){
     body{
         width: auto;
-        }
-    
-    *{
-        overflow: hidden;
     }
-    
-    .logo{
-        width: 20%;
-        }
     
     main {
         flex-direction: column;
         align-items: center;
-        }
-    
-    .text-input {
-        text-align: center;
-        }
+    }
     
     .text-area {
-        height: 250px;
-        width: 450px;
-        font-size: 22px;
-        margin-bottom: 5px;
-        }
+        height: 200px;
+        width: 110%;
+        font-size: 18px;
+        margin: 4% 0 0 -10%;
+    }
     
     .informacion{
-        font-size: 15px;
-        margin: 2px 10% 0px;
+        font-size: 13px;
+        margin-left: 2%;
     }
     
     .botones {
-        display: flex;
-        justify-content: center;
-        margin: 0 0 10px 0;
-        gap: 10px;
-        }
+        gap: 5%;
+    }
     
     .btn-encriptar,.btn-desencriptar {
-        margin: 5px;
+        margin: 2% 0 5% 0;
         font-size: 20px;
         width: 160px;
         height: 45px;
-        }
-    
-    section {
-        text-align: center;
-        }
-    
+    }
+        
     .mensaje {
-        margin: 20px 10px 10px -240px;
+        margin: 0 0 0 -35%;
         position: absolute;
-        height: 250px;
-        width: 450px;
+        height: 32%;
+        width: 65%;
         font-size: 18px;
-        resize: none;
-        background-image: url("./images/muneco.png");
         background-size: 60%;
-        background-repeat: no-repeat;
-        background-position: center;
-        }
+    }
     
     .btn-copiar {
-        margin-top: 290px;
-        margin-left: 75px;
+        margin-top: 155%;
         font-size: 20px;
         width: 160px;
         height: 45px;
         opacity: 1.0;
-        }
+    }
 }
 /* ////////////////////////VERTICAL//////////////////////// */
 @media screen and (min-width:768px) and (max-width:911.99px){
@@ -384,73 +337,55 @@ section {
         width: auto;
         }
     
-    *{
-        overflow: hidden;
-    }
-    
     .logo{
         width: 20%;
-        }
-    
+        margin: 2% 0 2% 0;
+    }    
     main {
         flex-direction: column;
         align-items: center;
         }
-    
-    .text-input {
-        text-align: center;
-        }
-    
+        
     .text-area {
         height: 300px;
-        width: 600px;
+        width: 140%;
         font-size: 22px;
-        margin-bottom: 5px;
+        margin: 0 0 0 -20%;
         }
     
     .informacion{
         font-size: 18px;
-        margin: 2px 10% 0px;
-    }
+        margin: auto;
+        }
     
     .botones {
-        display: flex;
-        justify-content: center;
-        margin: 0 0 10px 0;
-        gap: 10px;
+        margin: 2% 0 10% 0;
+        gap: 5%;
         }
     
     .btn-encriptar,.btn-desencriptar {
-        margin: 5px;
         font-size: 20px;
         width: 190px;
         height: 55px;
         }
     
-    section {
-        text-align: center;
-        }
-    
     .mensaje {
-        margin: 20px 10px 10px -310px;
-        position: absolute;
+        /* margin: 20px 10px 10px -310px; */
+        margin: 0 0 10% -25%;
         height: 350px;
-        width: 600px;
+        width: 75%;
         font-size: 18px;
-        resize: none;
-        background-image: url("./images/muneco.png");
-        background-size: 60%;
-        background-repeat: no-repeat;
-        background-position: center;
+        background-size: 50%;
         }
     
     .btn-copiar {
-        margin-top: 390px;
-        margin-left: 75px;
+        margin-top: 200%;
+        margin-left: 5%;
         font-size: 20px;
         width: 190px;
         height: 55px;
         opacity: 1.0;
+
         }
 }
 /* /////////////////////////////////////////////////////  */
@@ -458,72 +393,54 @@ section {
     body{
         width: auto;
         }
-
-    *{
-        overflow: hidden;
-    }
     
     .logo{
-        width: 20%;
-        margin-top: 20px;
-        margin-bottom: 20px;
+        width: 25%;
+        margin: 5% 0 5% 0;
         }
     
     main {
         flex-direction: column;
         align-items: center;
         }
-    
-    .text-input {
-        text-align: center;
-        }
-    
+        
     .text-area {
-        height: 400px;
-        width: 600px;
+        height: 380px;
+        width: 140%;
         font-size: 22px;
-        margin-bottom: 5px;
+        margin: 0 0 1% -25%;
         }
     
     .informacion{
-        font-size: 18px;
-        margin: 2px 5% 10px;
+        font-size: 19px;
+        margin: 0 0 10% 2%;
     }
     
     .botones {
-        display: flex;
-        justify-content: center;
-        margin: 0 0 10px 0;
-        gap: 10px;
+        margin: 0 0 5% 0;
+        gap: 5%;
         }
     
     .btn-encriptar,.btn-desencriptar {
-        margin: 5px;
         font-size: 24px;
         width: 200px;
         height: 60px;
         }
     
-    section {
-        text-align: center;
-        }
+    
     
     .mensaje {
-        margin: 20px 10px 10px -310px;
-        position: absolute;
+        /* margin: 20px 10px 10px -310px; */
+        margin: 5% 0 5% -25%;
         height: 400px;
-        width: 600px;
+        width: 70%;
         font-size: 22px;
-        resize: none;
-        background-image: url("./images/muneco.png");
-        background-size: 60%;
-        background-repeat: no-repeat;
-        background-position: center;
+        background-size: 50%;
         }
     
     .btn-copiar {
-        margin-top: 445px;
-        margin-left: 50px;
+        margin-top: 240%;
+        margin-left: -5%;
         margin-bottom: 5px;
         font-size: 24px;
         width: 200px;
@@ -536,21 +453,25 @@ section {
     body {
         width: auto;
         }
+        .logo{
+            width: 12%;
+            margin: 1% 0 1% -3%;
+        }
     .text-area {
         height: 350px;
-        width: 400px;
+        width: 95%;
         font-size: 22px;
-        margin-bottom: 5px;
+        margin-bottom: 2%;
     }
     .informacion{
-        font-size: 16px;
-        margin: 2px 5% 10px;
+        font-size: 13px;
+        margin: 1% 5% 5%;
     }
     .botones {
         display: flex;
         margin-top: 0px;
-        margin-bottom: 40px;
-        gap: 10px;
+        margin-bottom: 4%;
+       gap: 0;
     }
     
     .btn-encriptar,.btn-desencriptar {
@@ -560,17 +481,16 @@ section {
         height: 50px;
     }
     .mensaje {
-        margin: 0 10px 10px 50px;
-        position: fixed;
-        height: 385px;
-        width: 400px;
+        margin: 0 0 5% 80px;
+        height: 395px;
+        width: 500px;
         font-size: 22px;
-        background-size: 60%;
+        background-size: 55%;
     }
     .btn-copiar {
-        margin-top: 416px;
-        margin-left: 180px;
-        margin-bottom: 5px;
+        margin-top: 265%;
+        margin-left: 160%;
+        margin-bottom: 4%;
         font-size: 24px;
         width: 160px;
         height: 50px;
