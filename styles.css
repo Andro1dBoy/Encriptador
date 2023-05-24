@@ -50,7 +50,7 @@ main{
 
 .mensaje{
     background: white;
-    background-image: url("./images/Muneco2.png");
+    background-image: url("./images/Muneco.png");
     background-repeat: no-repeat;
     background-position: center;
     border: none;
@@ -147,7 +147,7 @@ main{
 
 
 /* ////////////////////////VERTICAL//////////////////////// */
-@media screen and (min-width: 250px) and (max-width: 350.99px) {
+@media screen and (min-width: 138px) and (max-width: 350.99px) {
     body {
         width: auto;
     }
@@ -282,7 +282,7 @@ section {
     }
 }
 /* ////////////////////////VERTICAL//////////////////////// */
-@media screen and (min-width:540px) and (max-width:767.99px){
+@media screen and (min-width:540px) and (max-width:655.25px){
     body{
         width: auto;
     }
@@ -316,7 +316,7 @@ section {
     }
         
     .mensaje {
-        margin: 0 0 0 -35%;
+        margin: 0 0 0 -20%;
         position: absolute;
         height: 32%;
         width: 65%;
@@ -325,7 +325,58 @@ section {
     }
     
     .btn-copiar {
-        margin-top: 155%;
+        margin: 200% 0%;
+        font-size: 20px;
+        width: 160px;
+        height: 45px;
+        opacity: 1.0;
+    }
+}
+/* ////////////////////////VERTICAL//////////////////////// */
+@media screen and (min-width:655.25px) and (max-width:767.99px){
+    body{
+        width: auto;
+    }
+    
+    main {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .text-area {
+        height: 200px;
+        width: 110%;
+        font-size: 18px;
+        margin: 4% 0 0 -10%;
+    }
+    
+    .informacion{
+        font-size: 13px;
+        margin-left: 2%;
+    }
+    
+    .botones {
+        gap: 5%;
+    }
+    
+    .btn-encriptar,.btn-desencriptar {
+        margin: 2% 0 5% 0;
+        font-size: 20px;
+        width: 160px;
+        height: 45px;
+    }
+        
+    .mensaje {
+        margin: 0 0 0 -20%;
+        position: absolute;
+        height: 32%;
+        width: 60%;
+        font-size: 18px;
+        background-size: 60%;
+    }
+    
+    .btn-copiar {
+        margin: 195% 0%;
         font-size: 20px;
         width: 160px;
         height: 45px;
