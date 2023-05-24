@@ -1,5 +1,5 @@
 *{
-    background-color: #F3F5FC;
+    background-color: #212121;
     font-family: Inter;
     font-size: 10%;
     font-weight: 400;
@@ -25,8 +25,8 @@ main{
 }
 
 .text-area{
-    border: none;
-    color: #0A3871;
+    /* border: none; */
+    color: #0a713a;
     margin: 2% 5% 5% 2%;
     padding: 1%;
     text-transform: lowercase;
@@ -43,19 +43,20 @@ main{
     
 }
 
-::placeholder{color: #0A3871;}
+::placeholder{color: #0a713a;}
   .text-area:focus {
     outline: none;
 }
 
 .mensaje{
     background: white;
-    background-image: url("./images/muneco.png");
+    background-image: url("./images/muneco2.png");
     background-repeat: no-repeat;
     background-position: center;
     border: none;
+    padding: 0.5%;
     border-radius: 12px;
-    color: #0A3871;
+    color: #0a713a;
     margin-left: 70px;
     position: absolute;
     font-size: 20px;
@@ -76,10 +77,10 @@ main{
 }
 
 .btn-desencriptar{
-    background: #D8DFE8;
+    background: #dae8d8;
     border: 1px solid #0A3871;
     border-radius: 12px;
-    color: #0A3871;
+    color: #04c310;
     cursor: pointer;
     text-align: center;
     font-size: 22px;
@@ -96,8 +97,8 @@ main{
 }
 
 .btn-encriptar{
-    background: #0A3871;
-    border: 1px solid #0A3871;
+    background: #04c310;
+    border: 1px solid #0a713a;
     border-radius: 12px;
     color: white;
     text-align: center;
@@ -115,10 +116,10 @@ main{
 }
 
 .btn-copiar{
-    border: 1px solid #0A3871;
+    border: 1px solid #0a713a;
     border-radius: 12px;
     text-align: center;
-    color: #0A3871;
+    color: #0a713a;
     cursor: pointer;
     margin: 325% 130%;
     width: 180px;
@@ -138,7 +139,7 @@ main{
 }
 
 .informacion{
-    color:#495057;
+    color:#04c310;
     font-size: 15px;
     font-style: italic;
     margin: 0 0 5% 3%
@@ -388,7 +389,7 @@ section {
 
         }
 }
-/* /////////////////////////////////////////////////////  */
+/* ////////////////////////VERTICAL//////////////////////// */
 @media screen and (min-width:912px) and (max-width:1023.99px){
     body{
         width: auto;
@@ -448,7 +449,7 @@ section {
         opacity: 1.0;
     }
 }
-/* /////////////////////////////////////////////////////  */
+/* ///////////////////////HORIZONTAL/////////////////////// */
 @media screen and (min-width: 1024px) and (max-width: 1280px) {
     body {
         width: auto;
