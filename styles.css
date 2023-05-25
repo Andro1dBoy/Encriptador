@@ -25,7 +25,7 @@ main{
 }
 
 .text-area{
-    /* border: none; */
+    border: none;
     color: #0a713a;
     margin: 2% 5% 5% 2%;
     padding: 1%;

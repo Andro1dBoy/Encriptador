@@ -1,13 +1,13 @@
 # Encriptador Alura
 
-Finalizado. 
+*Finalizado. 
 
-*Se realizaron configuraciones adaptables segun la resolución de la mayoria de las pantallas. Estoy seguro que debe haber algun método más adecuado pero con la practica espero poder desarrollarlo mucho mejor. 
+**Se realizaron configuraciones adaptables segun la resolución de la mayoria de las pantallas. Estoy seguro que debe haber algun método más adecuado pero con la practica espero poder desarrollarlo mucho mejor. 
 
 
 Características del Desafío:
 
-Aplicación que encripta textos, para intercambiar mensajes secretos con otras personas que sepan el secreto de la encriptación utilizada.
+Aplicación decodificador de textos, para intercambiar mensajes secretos con otras personas que sepan el secreto de la encriptación utilizada.
 
 Las "llaves" de encriptación que utilizaremos son las siguientes:
 
