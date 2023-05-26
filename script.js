@@ -8,17 +8,26 @@ const mensaje = document.querySelector(".mensaje");
 // La letra "u" es convertida para "ufat"
 
 function btnEncriptar(){
-    const textoEncriptado = encriptar(textArea.value);
-    mensaje.value = textoEncriptado
-    textArea.value = "";
-    mensaje.style.backgroundImage = "none";
+    if (textArea.value.trim() === "") {
+      alert("Ingresa el texto a encriptar");
+    } else if (verificarTexto(textArea.value)) {
+      const textoEncriptado = encriptar(textArea.value);
+      mensaje.value = textoEncriptado
+      textArea.value = "";
+      mensaje.style.backgroundImage = "none";
+    }
 }
-
+   
 function btnDesencriptar(){
-    const textoDesencriptado = desencriptar(textArea.value);
-    mensaje.value = textoDesencriptado
-    textArea.value = "";
+    if (textArea.value.trim() === "") {
+      alert("Ingresa el texto a desencriptar");
+    } else if (verificarTexto(textArea.value)) {
+      const textoDesencriptado = desencriptar(textArea.value);
+      mensaje.value = textoDesencriptado
+      textArea.value = "";
+    }
 }
+   
 
 function encriptar(stringEncriptada){
     let matrizCodigo = [["e", "enter"], ["i", "imes"], ["a", "ai"], ["o", "ober"], ["u", "ufat"]]
@@ -42,6 +51,16 @@ function desencriptar(stringDesencriptada){
         }
     }
     return stringDesencriptada; 
+}
+
+function verificarTexto(texto) {
+    const regex = /^[a-z\s]+$/;
+    if (regex.test(texto)) {
+      return true;
+    } else {
+      alert("El texto ingresado debe contener solo letras minúsculas y espacios sin caracteres especiales ni acentos");
+      return false;
+    }
 }
 
 const copiarBtn = document.querySelector('.btn-copiar');
